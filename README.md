@@ -35,11 +35,11 @@ The raw data had 29 exact duplicate rows, which were removed.
 11. **Memory**: split into `memory_type` (ssd / hdd / hybrid / flash_storage), `primary_storage`, and `secondary_storage`.
 12. **Gpu**: split into `gpu_brand` and `gpu_name`.
 
-## 🗂️ Cleaned Dataset Columns
+## Cleaned Dataset Columns
 
 `id`, `Company`, `TypeName`, `Inches`, `cpu_brand`, `cpu_family`, `cpu_speed_ghz`, `cpu_model`, `Ram`, `memory_type`, `primary_storage`, `secondary_storage`, `gpu_brand`, `gpu_name`, `OpSys`, `Weight`, `Price`, `ScreenWidth`, `ScreenHeight`, `ips_panel`, `retina_display`, `resolution_category`, `touchscreen`
 
-## 🛠️ SQL Concepts Used
+## SQL Concepts Used
 
 - `CASE` expressions for categorization
 - String functions: `SUBSTRING_INDEX`, `REPLACE`, `LTRIM`, `TRIM`, `CONCAT_WS`
